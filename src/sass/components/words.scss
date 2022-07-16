@@ -1,0 +1,52 @@
+.wrp_words {
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+  display: flex;
+  position: relative;
+  border: 1px dotted rgb(211,211,211);
+}
+
+.match--success {
+  background: rgb(170,249,170) !important;
+}
+
+.match--fail {
+  background: rgb(222, 98, 127) !important;
+}
+
+.words__item {
+  display: flex;
+  padding: 8px;
+  background: #b3eaea;
+  margin: 5px;
+  border: 1px solid rgb(211,211,211);
+  cursor: pointer;
+}
+
+.wrp_words__definition {
+  display: block;
+  position: relative;
+}
+
+.words__definition__item {
+  margin: 5px 0;
+  display: flex;
+}
+
+.words__item-match {
+  display: block;
+  width: 20%;
+  border: 1px dotted red;
+  margin: 0 2px;
+  padding: 15px;
+}
+
+.words__item-description {
+  display: block;
+  width: 100%;
+  background: rgb(243,243,243);
+  border: 1px solid rgb(211,211,211);
+  padding: 15px;
+  margin: 0 2px
+}

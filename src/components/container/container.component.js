@@ -6,9 +6,8 @@
  */
 class ContainerComponent {
     render() {
-        const elementContainer = document.createElement('div');
+        const elementContainer = document.querySelector('#app');
         elementContainer.classList.add(window.DOMElements.wordList.wrapper);
-        elementContainer.innerHTML = '<h1>List items</h1>';
         const body = document.querySelector('body');
         body.appendChild(elementContainer);
     }
